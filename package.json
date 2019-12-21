@@ -1,7 +1,7 @@
 {
   "name": "nodejs-cleanup",
   "description": "view the amount of storage taken up by node_modules in your project directories and have the option to remove them in one command",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "author": "Taylor Osbourne @taylorosbourne",
   "bin": {
     "node-cleanup": "./bin/run"
@@ -50,7 +50,7 @@
   "license": "MIT",
   "main": "lib/index.js",
   "oclif": {
-    "bin": "nodejs-cleanup"
+    "bin": "node-cleanup"
   },
   "repository": "taylorosbourne/node-cleanup",
   "scripts": {

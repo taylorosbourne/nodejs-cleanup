@@ -10,10 +10,10 @@
 
 view the amount of space node_modules in your directory take up
 
-`$ nodejs-cleanup`
+`$ node-cleanup`
 
 delete all node_modules folders found in current directory
 
-`$ nodejs-cleanup -c ` or `$ nodejs-cleanup --clean`
+`$ node-cleanup -c ` or `$ node-cleanup --clean`
 
 made with ❤️

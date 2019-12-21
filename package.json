@@ -1,5 +1,5 @@
 {
-  "name": "node-cleanup",
+  "name": "nodejs-cleanup",
   "description": "view the amount of storage taken up by node_modules in your project directories and have the option to remove them in one command",
   "version": "0.0.1",
   "author": "Taylor Osbourne @taylorosbourne",

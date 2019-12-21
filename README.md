@@ -1,32 +1,17 @@
-node-cleanup
-============
+## nodejs-cleanup
 
-view the amount of storage taken up by node_modules in your project directories and have the option to remove them in one command
+[![Version](https://img.shields.io/npm/v/nodejs-cleanup.svg?color=tomato)](https://www.npmjs.com/package/nodejs-cleanup)
+[![License](https://img.shields.io/npm/l/nodejs-cleanup.svg?color=blue)](https://github.com/taylorosbourne/nodejs-cleanup/blob/master/package.json)
+[![Travis/builds](https://img.shields.io/travis/taylorosbourne/nodejs-cleanup)](https://www.npmjs.com/package/nodejs-cleanup)
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/node-cleanup.svg)](https://npmjs.org/package/node-cleanup)
-[![Downloads/week](https://img.shields.io/npm/dw/node-cleanup.svg)](https://npmjs.org/package/node-cleanup)
-[![License](https://img.shields.io/npm/l/node-cleanup.svg)](https://github.com/taylorosbourne/node-cleanup/blob/master/package.json)
+[![Downloads](https://img.shields.io/npm/dt/nodejs-cleanup)](https://www.npmjs.com/package/nodejs-cleanup)
 
-<!-- toc -->
-* [Usage](#usage)
-* [Commands](#commands)
-<!-- tocstop -->
-# Usage
-<!-- usage -->
-```sh-session
-$ npm install -g node-cleanup
-$ node-cleanup COMMAND
-running command...
-$ node-cleanup (-v|--version|version)
-node-cleanup/0.0.1 darwin-x64 node-v10.16.3
-$ node-cleanup --help [COMMAND]
-USAGE
-  $ node-cleanup COMMAND
-...
-```
-<!-- usagestop -->
-# Commands
-<!-- commands -->
+`$ npm install nodejs-cleanup  -g`
 
-<!-- commandsstop -->
+view the amount of space node_modules in your directory take up
+
+`$ nodejs-cleanup`
+
+delete all node_modules folders found in current directory
+
+`$ nodejs-cleanup -c ` or `$ nodejs-cleanup --clean`

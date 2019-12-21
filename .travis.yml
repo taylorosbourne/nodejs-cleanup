@@ -1,0 +1,25 @@
+language: node_js
+node_js:
+  - '11'
+cache: npm
+install:
+  - npm install
+jobs:
+  include:
+    - stage: Build
+      script: 
+        - npm build
+    - stage: npm release
+      script: npm build
+      deploy:
+        provider: npm
+        email: '$NPM_EMAIL'
+        api_key: '$NPM_TOKEN'
+        skip_cleanup: true
+        on:
+          tags: true
+          repo: taylorosbourne/node-cleanup
+branches:
+  only:
+    - master
+    - /^v[0-9]+.*$/

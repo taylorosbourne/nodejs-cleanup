@@ -6,6 +6,8 @@
 
 [![Downloads](https://img.shields.io/npm/dt/nodejs-cleanup)](https://www.npmjs.com/package/nodejs-cleanup)
 
+<img style="margin:15px auto;" src="./images/nodejs-cleanup.gif" alt="demo" />
+
 `$ npm install nodejs-cleanup  -g`
 
 view the amount of space node_modules in your directory take up

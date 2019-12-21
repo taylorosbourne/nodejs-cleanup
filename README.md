@@ -6,7 +6,7 @@
 
 [![Downloads](https://img.shields.io/npm/dt/nodejs-cleanup)](https://www.npmjs.com/package/nodejs-cleanup)
 
-<img style="margin:15px auto;border-radius: 5px;" src="./images/nodejs-cleanup.gif" alt="demo" />
+<img style="margin:15px auto;border-radius: 5px;" src="./images/node-cleanup.gif" alt="demo" />
 
 `$ npm install nodejs-cleanup  -g`
 

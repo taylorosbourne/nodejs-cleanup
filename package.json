@@ -1,7 +1,7 @@
 {
   "name": "nodejs-cleanup",
   "description": "view the amount of storage taken up by node_modules in your project directories and have the option to remove them in one command",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "author": "Taylor Osbourne @taylorosbourne",
   "bin": {
     "node-cleanup": "./bin/run"
@@ -11,13 +11,8 @@
     "@oclif/command": "^1",
     "@oclif/config": "^1",
     "@oclif/plugin-help": "^2",
-    "@types/clear": "^0.1.0",
-    "@types/figlet": "^1.2.0",
     "@types/shelljs": "^0.8.6",
-    "boxen": "^4.2.0",
     "chalk": "^3.0.0",
-    "clear": "^0.1.0",
-    "figlet": "^1.2.4",
     "shelljs": "^0.8.3",
     "tslib": "^1"
   },

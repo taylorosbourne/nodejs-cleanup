@@ -1,7 +1,6 @@
 import {Command, flags} from '@oclif/command'
 import * as shell from 'shelljs'
 import * as chalk from 'chalk'
-const clear = require('clear')
 
 class NodeCleanup extends Command {
   static description = 'describe the command here'

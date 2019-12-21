@@ -20,6 +20,3 @@ jobs:
           tags: true
           repo: taylorosbourne/node-cleanup
 branches:
-  only:
-    - master
-    - /^v[0-9]+.*$/

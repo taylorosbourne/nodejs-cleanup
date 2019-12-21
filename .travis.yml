@@ -18,5 +18,7 @@ jobs:
         skip_cleanup: true
         on:
           tags: true
-          repo: taylorosbourne/node-cleanup
+          repo: taylorosbourne/nodejs-cleanup
 branches:
+  only:
+    - master

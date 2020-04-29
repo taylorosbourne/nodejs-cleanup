@@ -1,10 +1,9 @@
 ## nodejs-cleanup
 
-[![Version](https://img.shields.io/npm/v/nodejs-cleanup.svg?color=tomato)](https://www.npmjs.com/package/nodejs-cleanup)
-[![License](https://img.shields.io/npm/l/nodejs-cleanup.svg?color=blue)](https://github.com/taylorosbourne/nodejs-cleanup/blob/master/package.json)
-[![Travis/builds](https://img.shields.io/travis/com/taylorosbourne/nodejs-cleanup/master)](https://www.npmjs.com/package/nodejs-cleanup)
-
-[![Downloads](https://img.shields.io/npm/dt/nodejs-cleanup)](https://www.npmjs.com/package/nodejs-cleanup)
+[![Version](https://img.shields.io/npm/v/nodejs-cleanup.svg?color=tomato&style=flat-square)](https://www.npmjs.com/package/nodejs-cleanup)
+[![License](https://img.shields.io/npm/l/nodejs-cleanup.svg?color=blue&style=flat-square)](https://github.com/taylorosbourne/nodejs-cleanup/blob/master/package.json)
+[![Travis/builds](https://img.shields.io/travis/com/taylorosbourne/nodejs-cleanup/master?style=flat-square)](https://www.npmjs.com/package/nodejs-cleanup)
+[![Downloads](https://img.shields.io/npm/dt/nodejs-cleanup?style=flat-square)](https://www.npmjs.com/package/nodejs-cleanup)
 
 <img style="margin:15px auto;border-radius: 5px;" src="./images/node-cleanup.gif" alt="demo" />
 
